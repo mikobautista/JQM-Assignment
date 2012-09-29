@@ -1,0 +1,34 @@
+<!--  ----------------- CFA ----------------- -->
+<div data-role="page" id="CFA">
+	<div data-role="header">
+		<h1>CFA</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>This is the College of Fine Arts.</p>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		
+		   <h3>About</h3>
+		
+		<p>
+		
+		Welcome to the College of Fine Arts at Carnegie Mellon University. The College of Fine Arts is a community of nationally and internationally recognized artists and professionals organized into five schools, Architecture, Art, Design, Drama and Music; and its associated centers and programs.
+		</p>
+		</div>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		   <h3>Majors</h3>
+			<ul data-role="listview" data-theme="g" data-filter="true" >
+				<li>Architecture</li>
+				<li>Art</li>
+				<li>Design</li>
+				<li>Drama</li>
+				<li>Music</li>
+			</ul>
+		</div>
+		
+		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
+	</div><!-- /content -->
+</div><!-- /page -->
