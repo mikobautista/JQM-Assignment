@@ -1,0 +1,31 @@
+<!--  ----------------- TEPPER ----------------- -->
+<div data-role="page" id="tepper">
+	<div data-role="header">
+		<h1>TEPPER</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>This is the Business School at CMU.</p>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		
+		   <h3>About</h3>
+		
+		<p>
+The Tepper School of Business at Carnegie Mellon University, located in Pittsburgh, Pennsylvania, consistently ranks among the top business schools in the world. The school legacy is closely tied to our pioneering work in introducing management science to the marketplace and B-school arena. More than 60 years ago, the school leadership brought forth their vision of a better way to succeed in business.
+		
+		</p>
+		</div>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		   <h3>Majors</h3>
+			<ul data-role="listview" data-theme="g">
+				<li>Business</li>
+				<li>Economics</li>
+			</ul>
+		</div>
+		
+		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
+	</div><!-- /content -->
+</div><!-- /page -->
