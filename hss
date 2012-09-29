@@ -1,0 +1,61 @@
+<!--  ----------------- HSS ----------------- -->
+<div data-role="page" id="hss">
+	<div data-role="header">
+		<h1>H&SS</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>This is the Humanities and Social Sciences school.  It was recently renamed to be called Dietrich College of Humanities and Social Sciences.</p>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		
+		   <h3>About</h3>
+		
+		<p>
+		The Marianna Brown Dietrich College of Humanities and Social Sciences (Dietrich College) at Carnegie Mellon University is no ordinary liberal arts school. Dietrich College students publish poetry and analyze brain scans. They teach elementary school students to speak Spanish and create computer tutors that teach algebra. They study how films shape our culture and learn about the impact that pollution has had on the history of American cities. This video will give you a preview of our exciting education programs, research and opportunities for students.
+		</p><p>
+		Dietrich College students study under some of the world's leading scholars in fields that were pioneered at Carnegie Mellon, such as decision science, technical writing, history and policy, and cognitive neuroscience. And Dietrich College provides for all Carnegie Mellon students what the New York Times has called "the most creative general education program of any American university."
+		
+		</p>
+		</div>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		   <h3>Majors</h3>
+			<ul data-role="listview" data-theme="g" data-filter="true" >
+				<li>Chinese Studies (BA)</li>
+				<li>Creative Writing (BA)</li>
+				<li>Cognitive Science (BS)</li>
+				<li>Decision Science (BS)</li>
+				<li>Economics (BA)</li>
+				<li>Economics (BS)</li>
+				<li>Economics and Mathematical Sciences (BS)</li>
+				<li>Economics and Statistics (BS)</li>
+				<li>English (BA)</li>
+				<li>Ethics, History, and Public Policy (BA or BS)</li>
+				<li>European Studies (BA)</li>
+				<li>French and Francophone Studies (BA)</li>
+				<li>German Studies (BA)</li>
+				<li>Global Studies (BA)</li>
+				<li>Hispanic Studies (BA)</li>
+				<li>History (BA)</li>
+				<li>Information Systems (BS)</li>
+				<li>International Relations and Politics (BS)</li>
+				<li>Japanese Studies (BA)</li>
+				<li>Linguistics (BA)</li>
+				<li>Logic and Computation (BS)</li>
+				<li>Philosophy (BA)</li>
+				<li>Policy and Management (BS)</li>
+				<li>Professional Writing (BS)</li>
+				<li>Psychology (BA)</li>
+				<li>Psychology (BS)</li>
+				<li>Psychology and Biological Sciences (BS)</li>
+				<li>Russian Studies (BA)</li>
+				<li>Statistics (BS)</li>
+				<li>Technical Writing and Communication (BS)</li>
+			</ul>
+		</div>
+		
+		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
+	</div><!-- /content -->
+</div><!-- /page -->
