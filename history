@@ -1,0 +1,12 @@
+<!--  ----------------- HISTORY ----------------- -->
+<div data-role="page" id="history">
+	<div data-role="header">
+		<h1>Did you know?</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>That Carnegie Mellon was founded by Andrew Carnegie.</p>
+
+
+
+	</div><!-- /content -->
+</div><!-- /page -->
