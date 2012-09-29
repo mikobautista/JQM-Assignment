@@ -1,0 +1,42 @@
+<!--  ----------------- CIT ----------------- -->
+<div data-role="page" id="CIT">
+	<div data-role="header">
+		<h1>CIT</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>This is the Carnegie Institute of Technology, the CMU Engineering College.</p>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		
+		   <h3>About</h3>
+		
+		<p>
+		In 1900, when steel industrialist Andrew Carnegie announced to the City of Pittsburgh his intention to build a "first class technical school" for the sons of local steel mill workers, he had no idea what he had started. In just 100 years, (most prominent engineering colleges are much older), Carnegie Mellon University has grown from four small programs into the world-class university it is today. Beginning in 1905, the massive buildings of the Carnegie Technical Schools began to rise out of a barren field east of the city. Applications poured in, and the first students of the School of Science and Technology began classes in unfinished buildings, still surrounded by the sounds of construction.
+
+</p>
+<p>
+		In 1912, with the original campus nearly complete and three more schools holding classes, the first "Tech" engineer entered the working world with a bachelor's degree from the newly accredited Carnegie Institute of Technology. The legacy of Carnegie Mellon Engineering had begun.
+
+</p>
+<p>
+		Over the next five decades, Carnegie Tech became well-known not only for its engineering and science programs, but also for its progressive programs in drama and fine arts. This recognition as an academically prominent institution set the stage for a merger with Mellon Institute, the prototype of private applied research institutes. Out of this 1967 union, Carnegie Mellon emerged as one of the nation's most prestigious research universities.
+		
+		</p>
+		</div>
+		
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		   <h3>Majors</h3>
+			<ul data-role="listview" data-theme="g" data-filter="true" >
+				<li>Chemical Engineering</li>
+				<li>Civil and Environmental Engineering</li>
+				<li>Electrical and Computer Engineering</li>
+				<li>Mechanical Engineering</li>
+				<li>Materials Science and Engineering</li>
+			</ul>
+		</div>
+		
+		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
+	</div><!-- /content -->
+</div><!-- /page -->
