@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type='text/javascript' src='email_rating.js'></script>
 </head>
 <body>
 
@@ -26,7 +27,7 @@
 			<li><a href="cs" data-transition="slide">School of Computer Science</a></li>
 			<li><a href="cit" data-transition="slide">Carnegie Institute of Technology</a></li>
 			<li><a href="tepper" data-transition="slide">Tepper School of Business</a></li>
-			<li><a href="mcs" data-transition="slide">Mellon College of Science</a></li>
+			<li><a href="#mcs" data-transition="slide">Mellon College of Science</a></li>
 			<li><a href="cfa" data-transition="slide">College of Fine Arts</a></li>
 		</ul>
 
@@ -35,19 +36,75 @@
 			<a href="http://www.cmu.edu/prospective/index.shtml" data-role="button" data-theme="a">Apply Now!</a>
 		</fieldset>
 			
-			<a href="history" data-role="button" data-rel="dialog" data-transition="slidedown">Did You Know?</a>
+		<a href="history" data-role="button" data-rel="dialog" data-transition="slidedown" data-theme="a">Did You Know?</a>
 
-		<div data-role="footer" data-id="foo1" data-position="fixed" data-theme="a">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="http://www.cmu.edu/academics/index.shtml">Academics</a></li>
-					<li><a href="http://www.cmu.edu/research/index.shtml">Research</a></li>
-					<li><a href="http://athletics.cmu.edu/landing/index">Athletics</a></li>
-					<li><a href="mailto:recruitment@cmu.edu?Subject=Hello">Email</a></li>
-				</ul>
-			</div><!-- /navbar -->
-		</div><!-- /footer -->
+		<div data-role="fieldcontain">
+			<label for="cmu-rating">Rate Carnegie Mellon:</label>
+			<input type="range" name="cmu-rating" id="cmu-rating" value="25" min="0" max="100" data-highlight="true" data-mini="true" data-theme="a" data-track-theme="a"/>
+		</div>
+	</div><!-- /content -->
+
+	<form id="f1">
+    	<input data-theme="a" type="submit" value="Submit Rating"/>
+    </form>
+
+	<div data-role="footer" data-id="foo1" data-position="fixed" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="http://www.cmu.edu/academics/index.shtml">Academics</a></li>
+				<li><a href="http://www.cmu.edu/research/index.shtml">Research</a></li>
+				<li><a href="http://athletics.cmu.edu/landing/index">Athletics</a></li>
+				<li><a href="mailto:mbautist@andrew.cmu.edu?Subject=Hello">Email</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+
+<!--  ----------------- MCS ----------------- -->
+<div data-role="page" id="mcs">
+	<div data-role="header">
+		<h1>H&SS</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+		<p>This is the Mellon College of Science.</p>
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		<h3>About</h3>
+		<p>
+			The Mellon College of Science (MCS) is home to four departments and many programs and research centers that cross disciplines.
+		</p>
+		<p>
+			We approach scientific problems from fresh angles using innovative interdisciplinary approaches while drawing on our departmental strengths in the core sciences. MCS faculty members are nationally and internationally recognized for their research in a variety of fields, including polymer science, cosmology, mathematical finance and neuroscience.
+		</p>
+		<p>
+			We are innovators and forward-thinkers. Our alumni and faculty have invented materials and processes that have made a profound impact, like Kevlar® and CyDyes™.
+		</p>
+			Our innovations don’t stop there. MCS faculty members have channeled their ingenuity and interdisciplinary energy into developing a creative undergraduate curriculum. We designed courses and programs in emerging areas like green chemistry and developed a number of interdisciplinary degree programs that prepare our students to be at the forefront of science.
+		<p>
+			At MCS, we encourage our students to collaborate within and across disciplines. Many begin research early in their college careers. More than 70% of MCS students conduct undergraduate research, where they don’t just summarize or repeat previous research—they discover new science.
+		</p>
+		</div>
+		
+		<div data-role="collapsible" data-theme="b" data-content-theme="d">
+		   <h3>Majors</h3>
+			<ul data-role="listview" data-theme="g" data-filter="true" >
+				<li>B.A. in Biological Sciences (with an additional major from the College of Humanities and Social Sciences)</li>
+				<li>B.S. in Biological Sciences</li>
+				<li>B.S. in Biological Sciences and Psychology (jointly with the Department of Psychology)</li>
+				<li>B.S. in Computational Biology</li>
+				<li>B.A. in Chemistry</li>
+				<li>B.S. in Chemistry</li>
+				<li>B.S. in Chemistry/Computational Chemistry Track</li>
+				<li>B.S. in Mathematical Sciences</li>
+				<li>B.S. in Computational Finance (jointly with Heinz School of Public Policy and Management and Tepper School of Business)</li>
+				<li>B.A. in Physics</li>
+				<li>B.S. in Physics</li>
+			</ul>
+		</div>
+		
+		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
 	</div><!-- /content -->
 </div><!-- /page -->
+
 </body>
 
