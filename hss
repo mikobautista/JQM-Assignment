@@ -1,10 +1,21 @@
-<!--  ----------------- HSS ----------------- -->
+<div data-role="popup" id="popupBasic">
+	<p>This is a completely basic popup, no options set.<p>
+</div><!--  ----------------- HSS ----------------- -->
 <div data-role="page" id="hss">
 	<div data-role="header">
 		<h1>H&SS</h1>
 	</div><!-- /header -->
 	<div data-role="content">	
 		<p>This is the Humanities and Social Sciences school.  It was recently renamed to be called Dietrich College of Humanities and Social Sciences.</p>
+		
+		
+		<a href="#popupBasic" data-rel="popup" data-position-to="window">View Baker</a>
+		
+		<div data-role="popup" id="popupBasic">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+		
+			<img src="baker.jpg">
+		</div>
 		
 		
 		<div data-role="collapsible" data-theme="b" data-content-theme="d">
@@ -57,5 +68,13 @@
 		</div>
 		
 		<a href="#intro" data-role="button" data-icon="arrow-l" data-transition="slide"  data-direction="reverse">Back to College List</a>
+		
+		
+
+		
 	</div><!-- /content -->
+
+	
 </div><!-- /page -->
+
+
